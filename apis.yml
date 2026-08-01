@@ -1,7 +1,30 @@
 aid: patent-watch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patent-watch.png
 name: Patent Watch
-description: Patent Watch is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Patent Watch (PatentWatch.ai) is a Toronto-based, Y Combinator-backed (F25)
+  legal-tech startup building AI for patent intelligence and infringement
+  detection. Its platform interprets patents, maps them to competing products,
+  and generates claim charts that show who is infringing and how, so IP teams
+  can find licensing and litigation targets, send cease-and-desist letters,
+  pursue counter-litigation, sell IP in wind-downs, and accelerate M&A
+  diligence. It also runs AI invalidity and prior-art searches to help patents
+  hold up in court. Founded in 2024 by Alexander and Andreas Stroe, the company
+  raised a $2.8M seed round in April 2026. As of this profile Patent Watch is an
+  early-stage product with a marketing site and login only, and no public
+  developer, API, or documentation surface; this repo tracks it as an enrichment
+  lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/patent-watch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Legal Tech
+- Patents
+- Intellectual Property
+- Artificial Intelligence
+- Patent Search
+- Prior Art
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/patent-watch-domain-security.yml
+- type: Website
+  url: https://www.patentwatch.ai/
+- type: Login
+  url: https://www.patentwatch.ai/login
+- type: Blog
+  url: https://www.patentwatch.ai/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/patentwatch-ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
