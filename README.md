@@ -64,6 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Patent Watch is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Patent Watch (PatentWatch.ai) is a Toronto-based, Y Combinator-backed (F25) legal-tech startup building AI for patent intelligence and infringement detection. Its platform interprets patents, maps them to competing products, and generates claim charts that show who is infringing and how, so IP teams can find licensing and litigation targets, send cease-and-desist letters, pursue counter-litigation, sell IP in wind-downs, and accelerate M&A diligence. It also runs AI invalidity and prior-art searches to help patents hold up in court. Founded in 2024 by Alexander and Andreas Stroe, the company raised a $2.8M seed round in April 2026. As of this profile Patent Watch is an early-stage product with a marketing site and login only, and no public developer, API, or documentation surface; this repo tracks it as an enrichment lead in the API Evangelist network.
 
-Backed by: y-combinator
+**Areas:** Company · Legal Tech · Patents · Intellectual Property · Artificial Intelligence · Patent Search · Prior Art · Y Combinator
+
+## Patent Watch on APIs.io
+
+Everything profiled for Patent Watch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/patent-watch/](https://apis.io/providers/patent-watch/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Patent Watch Domain Security](https://apis.io/security/patent-watch/patent-watch-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.patentwatch.ai/)
+- [Blog](https://www.patentwatch.ai/news)
+
+## API Evangelist rating
+
+**Kin Score 5.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 6.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/patent-watch/](https://apis.io/providers/patent-watch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Patent Watch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/patent-watch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
